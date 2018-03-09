@@ -1,0 +1,260 @@
+﻿.header {
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 24px;
+}
+.navbar-default{
+    background-color: black;
+}
+h1 {
+    font-size: 36px;
+    font-family: 'Special Elite', 'Cormorant Garamond', serif;
+    text-transform: lowercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 28px;
+    text-transform: lowercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a{
+    font-family: 'Special Elite', 'Cormorant Garamond', serif;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
+.anchor{
+    display: block;
+    height: 74px;
+    margin-top: -74px;
+    visibility: hidden;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+a.navbar-brand{
+    color: white!important;
+    font-size: 32px;
+}
+a.navbar-brand:hover{
+    color: red!important;
+}
+a.nav-link{
+    color: white;
+}
+a.nav-link:hover{
+    color: yellow;
+}
+ul.navbar-nav{
+ margin-left: auto;
+}
+
+
+a.git-hub-logo:hover{
+    background-color: red;
+}
+.header_col {
+    padding: 0;
+    background-color: black;
+}
+.spacer1{
+    padding: 0;
+
+}
+
+.spacer1{
+    height: 3em;
+}
+.about_me{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    max-height: 600px;
+    min-width: 483px;
+    overflow: auto;
+}
+.cf2 {
+    background-image: url('ImageRepository/4884543-books-wallpaper.jpg');
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    padding-top: 50px;
+}
+#headshot {
+    max-width: 100px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#signature {
+    max-width: 250px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.spacer4{
+    height: 5em;
+}
+.languages{
+    background-color: black;
+    color: white;
+    max-height: 175px;
+    overflow: auto;
+}
+.skillList1{
+    font-size: 20px;
+}
+.cf3 {
+    background-image: url('ImageRepository/4064561-hipster-wallpaper.jpg');
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+.row5{
+    background-color: black;
+    height: 310px;
+}
+.project1_desc{
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    overflow-y: auto;
+    max-width: 780px;
+    min-width: 580px;
+    max-height: 310px;
+    overflow: auto;
+}
+.project1_desc p{
+    margin-top: 16px;
+}
+
+.project1_pic {
+    padding-left: 5px;
+    padding-right: 10px;
+    min-width: 565px;
+    max-height: 310px;
+}
+
+#flipperone {
+    position: relative;
+    max-height: 300px;
+    max-width: 560px;
+    margin: 5px;
+}
+    #flipperone img {
+        position: absolute;
+        left: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    }
+#flipperone img.top:hover {
+    opacity: 0;
+}
+.spacer7{
+    height: 25px;
+}
+.row7 {
+    background-color: black;
+    height: 310px;
+}
+.row9 {
+    background-color: black;
+    height: 310px;
+}
+.project2_desc {
+    color: white;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    overflow-y: auto;
+    max-width: 780px;
+    min-width: 580px;
+    max-height: 310px;
+}
+
+.project2_desc p {
+        margin-top: 16px;
+    }
+
+.project2_pic {
+    
+    padding-left: 75px;
+    padding-right: 10px;
+    min-width: 565px;
+    max-height: 310px;
+}
+#flippertwo {
+    position: relative;
+    max-height: 300px;
+    max-width: 560px;
+    margin: 5px;
+}
+
+    #flippertwo img {
+        position: absolute;
+        left: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    }
+
+        #flippertwo img.top:hover {
+            opacity: 0;
+        }
+.cf4 {
+    background-image: url('ImageRepository/6014513-wallpaper-black-and-white.jpg');
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.row10{
+    background-color: black;
+    height: 350px;
+}
+.col-contact{
+    padding-top: 10px;
+    overflow: auto;
+}
+.contacttext{
+    color: white;
+}
+.contactlinks{
+    padding-top: 20px;
+}
+.contactlinks a{
+    padding: 10px;
+}
+.github-logo2{
+    opacity: 0.5;
+}
+.github-logo2:hover{
+    opacity: 1;
+}
+.linkedin-logo2{
+    opacity: 0.5;
+}
+.linkedin-logo2:hover{
+    opacity: 1;
+}
